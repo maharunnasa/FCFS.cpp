@@ -33,12 +33,11 @@ This program simulates the calculation of waiting time and turnaround time for a
 The code is structured as follows:
 
 Functions:
-
 findWaitingTime: Calculates the waiting time for each process.
 findTurnAroundTime: Calculates the turnaround time for each process.
 findavgTime: Calls the above functions and computes the average waiting and turnaround times.
-Main Function:
 
+Main Function:
 Prompts the user to input the number of processes, process IDs, and burst times.
 Calls findavgTime to perform the calculations and display the results.
 
